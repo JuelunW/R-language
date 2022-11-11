@@ -1,5 +1,4 @@
-# HW 2
-# Juelun Wang, 10470039
+
 # 1.1
 seed <- 1 
 lcg <- function(n){
