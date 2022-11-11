@@ -16,14 +16,12 @@ double uniformRandom(double lower, double upper){
 // helper function used to calculate the sum distance
 double sumDistance(double x, double y, const vector<double>& xx, const vector<double>& yy) {
     // helpful function you could use: pow(), sqrt()
-    /*-----------------Your code----------------------*/
     double dist = 0;
     for(int i = 0; i < xx.size(); i++){
         dist += sqrt(pow(xx[i] - x, 2) + pow(yy[i] - y, 2));
     }
 
     return dist;
-    /*-----------------Your code----------------------*/
 }
 
 pair<double, vector<double>> minimumDistance(const vector<double>& xx, const vector<double>& yy){
@@ -35,7 +33,6 @@ pair<double, vector<double>> minimumDistance(const vector<double>& xx, const vec
     double optimalDistance = 10000;
     // simulation time
     int N = 100000;
-    /*-----------------Your code----------------------*/
     for(int i = 0; i < N; i++){
         double x = uniformRandom(1, 9);
         double y = uniformRandom(1, 9);
@@ -46,7 +43,7 @@ pair<double, vector<double>> minimumDistance(const vector<double>& xx, const vec
             optimalPoint[1] = y;
         }
     }
-    /*-----------------Your code----------------------*/
+    
     // Assign values to result
     result.first = optimalDistance;
     result.second = optimalPoint;
