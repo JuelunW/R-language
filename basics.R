@@ -1,5 +1,4 @@
-# HW 1
-# Juelun Wang, 10470039
+
 # 1.1
 x <- seq(5, 35, by = 2)
 length(x)
