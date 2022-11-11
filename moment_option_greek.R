@@ -1,7 +1,4 @@
-# Final
-# Juelun Wang, 10470039
 # 1.1 ####
-install.packages("quantmod")
 library(quantmod)
 
 getSymbols("SPY",from = "2019-01-01", auto.assign = TRUE)
@@ -133,7 +130,6 @@ legend("topright", legend = names(SPY.options)[c(2, 3, 5)], fill = c("red","gree
 
 
 # 3.5 ####
-setwd("O:/FE 515 Intro to R/02 Final")
 today <- format(Sys.Date(), "%Y_%m_%d")
 Exp <- names(SPY.options)
 
