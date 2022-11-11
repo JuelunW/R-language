@@ -1,6 +1,6 @@
 library(quantmod)
 library(PerformanceAnalytics)
-setwd("O:/FE 535 Intro to Financial Risk Management/Project2")
+
 bond <- read.csv("bonds-2.csv")
 forward <- read.csv("forward.csv")
 
@@ -278,7 +278,7 @@ mean(MC.EuroOpt(tau))
 #determined by the average price until maturity. For an Asian option to be exercised, you need to
 #evaluate whether the average daily simulated price of the underlying asset exceeds the strike price.
 #Specifically, you need to simulate the asset price over D days and determine whether the average
-#is larger than K. If that¡¯s the case, then the payoff is given by the average price minus the strike
+#is larger than K. If thatÂ¡Â¯s the case, then the payoff is given by the average price minus the strike
 #price, while otherwise is zero.
 
 MC.AsianOpt <- function(tau, type = "call"){
