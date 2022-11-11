@@ -1,6 +1,4 @@
-/* 
-Problem 0: (40 points)
-*/
+
 
 #include "std_lib_facilities.h"
 
