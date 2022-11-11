@@ -1,5 +1,4 @@
-# HW 3
-# Juelun Wang, 10470039
+
 # 1.1
 install.packages("quantmod")
 library(quantmod)
