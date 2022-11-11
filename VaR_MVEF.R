@@ -1,7 +1,7 @@
 library(quantmod)
 library(PerformanceAnalytics)
 library(lubridate)
-setwd("O:/FE 535 Intro to Financial Risk Management/Project")
+
 
 ################## Data ##################
 # Download
